@@ -1,0 +1,54 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby > hapi > accept > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby > hapi > accept > boom > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby > hapi > subtext > pez > content > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby > hapi > subtext > content > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby-source-filesystem > babel-cli > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+    - gatsby > webpack-validator > joi > hoek:
+        patched: '2018-12-21T05:02:11.194Z'
+  'npm:lodash:20180130':
+    - gatsby > webpack-configurator > lodash:
+        patched: '2018-12-21T05:02:11.194Z'
+  'npm:moment:20170905':
+    - gatsby > webpack-validator > joi > moment:
+        patched: '2018-12-21T05:02:11.194Z'
